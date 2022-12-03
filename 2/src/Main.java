@@ -7,7 +7,7 @@ public class Main {
         int totalPoints = 0;
         int totalPoints2 = 0;
 
-        Scanner sc = new Scanner(new File("src/rps.csv"));
+        Scanner sc = new Scanner(new File("rps.csv"));
         while(sc.hasNext()) {
             String line = sc.nextLine();
             String[] split = line.split(" ");

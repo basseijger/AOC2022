@@ -8,7 +8,7 @@ public class Main {
         ArrayList<Character> letters = new ArrayList<>();
         ArrayList<String> lines = new ArrayList<>();
         ArrayList<Character> badgeLetters = new ArrayList<>();
-        Scanner sc = new Scanner(new File("src/items.csv"));
+        Scanner sc = new Scanner(new File("items.csv"));
 
         while(sc.hasNext()) {
             String line = sc.nextLine();
